@@ -20,7 +20,7 @@ namespace Teht05
             hours = number / 3600;
             seconds = number % 3600 % 60;
 
-            Console.WriteLine("Hour " + hours + " Min " + minutes + " Seconds " + seconds);
+            Console.WriteLine("Hour " + hours + " Min " + minutes + " Seconds! " + seconds);
 
             Console.ReadLine();
         }
